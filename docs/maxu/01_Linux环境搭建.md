@@ -15,8 +15,8 @@
 
     默认安装到了 ~/.dotnet 路径下, 这个路径需要配置到环境变量下
 
-    echo "export PATH=~/.dotnet:$PATH" >> ~/.bashrc
-    . ~/.bashrc
+    设置环境变量 ~/.bashrc:
+    export PATH=~/.dotnet:$PATH
 
 ## 安装 linux 依赖包
 
